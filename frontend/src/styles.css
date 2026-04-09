@@ -1,0 +1,282 @@
+:root {
+  --bg: #091322;
+  --bg-accent: #13233e;
+  --card: #ffffff;
+  --ink: #182033;
+  --muted: #6d7693;
+  --line: #dbe2f0;
+  --brand: #22a699;
+  --brand-2: #ff8f3d;
+  --low: #2e9e5b;
+  --medium: #d99904;
+  --high: #d7263d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 10%, #173660 0, transparent 40%),
+    radial-gradient(circle at 88% 75%, #2f1f4b 0, transparent 30%),
+    linear-gradient(135deg, var(--bg), #03070f);
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Space Grotesk", "Trebuchet MS", sans-serif;
+  margin-top: 0;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.app-main {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 28px 16px 40px;
+}
+
+.navbar {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 18px 16px 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f2f6ff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-weight: 600;
+}
+
+.nav-link.active {
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  color: #fff;
+  border-color: transparent;
+}
+
+.page {
+  display: grid;
+  gap: 16px;
+}
+
+.panel {
+  background: var(--card);
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  box-shadow: 0 16px 40px rgba(4, 12, 28, 0.24);
+  padding: 18px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.form-grid {
+  display: grid;
+  gap: 14px;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+input,
+select,
+button {
+  font: inherit;
+}
+
+input,
+select {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #c8d3ea;
+  padding: 10px;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  padding: 10px 14px;
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.location-row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.live-box {
+  border: 1px dashed #9cb0d2;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.live-actions {
+  margin-bottom: 8px;
+}
+
+.live-video {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  background: #111;
+}
+
+.result-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: 0 16px 40px rgba(4, 12, 28, 0.24);
+  overflow: hidden;
+}
+
+.result-media img,
+.result-media video {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  display: block;
+}
+
+.result-content {
+  padding: 16px;
+}
+
+.result-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.summary-grid {
+  margin-top: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.summary-title {
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.summary-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 6px;
+}
+
+.summary-list li {
+  background: #f4f7ff;
+  border-radius: 8px;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.severity {
+  font-size: 13px;
+  border-radius: 999px;
+  padding: 5px 11px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.severity-low {
+  background: var(--low);
+}
+
+.severity-medium {
+  background: var(--medium);
+}
+
+.severity-high {
+  background: var(--high);
+}
+
+.history-list {
+  display: grid;
+  gap: 14px;
+}
+
+.map-wrap {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 16px 40px rgba(4, 12, 28, 0.24);
+}
+
+.map-container {
+  width: 100%;
+  height: 68vh;
+}
+
+.popup-box p {
+  margin: 6px 0;
+  font-size: 13px;
+}
+
+.popup-box img,
+.popup-box video {
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+.error {
+  color: #c1121f;
+  font-weight: 700;
+}
+
+@media (max-width: 720px) {
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .brand {
+    font-size: 24px;
+  }
+}
+

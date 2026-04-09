@@ -1,0 +1,95 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# FastAPI uploads/outputs
+backend/uploads/
+backend/outputs/
+
+# Secrets
+.env
+*.env
+firebase-key.json
+backend/firebase-key.json
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter / caches
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Optional if you DON'T want models on GitHub
+# backend/models/*.pt
+# Python virtual env
+backend/.venv/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Upload / output folders
+backend/uploads/
+backend/outputs/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Secrets
+.env
+*.env
+firebase-key.json
+
+# OS / editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+backend/.venv/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Upload / output folders
+backend/uploads/
+backend/outputs/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Secrets / env
+.env
+*.env
+firebase-key.json
+backend/firebase-key.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
