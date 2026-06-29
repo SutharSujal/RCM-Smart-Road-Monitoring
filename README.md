@@ -159,15 +159,18 @@ Plate:
 - /api/plate/image  
 - /api/plate/video  
 - /api/plate/live-frame  
+<img width="445" height="266" alt="processed_image_20260417_182911_0eee888a" src="https://github.com/user-attachments/assets/a7c8cbf7-8765-448f-a9b2-36f450d56a0a" />
 
 Hazard:
 - /api/hazard/image  
 - /api/hazard/video  
 - /api/hazard/live-frame  
+<img width="886" height="595" alt="processed_image_20260409_232830_73ff8838" src="https://github.com/user-attachments/assets/97366360-6dc2-42e9-9ba3-f31b53d9ba88" />
 
 History:
 - /api/detections  
 - /api/detections/{id}  
+<img width="1884" height="920" alt="Screenshot 2026-04-17 183420" src="https://github.com/user-attachments/assets/3590f19b-bc6f-4fc3-99d7-a9f813e31d07" />
 
 ---
 
@@ -178,6 +181,10 @@ History:
 - 🔴 Red → Hazardous  
 
 ---
+<img width="1888" height="921" alt="Screenshot 2026-04-17 182812" src="https://github.com/user-attachments/assets/5cc1048f-d576-45a4-a05e-264f6cedd2d3" />
+
+<img width="1893" height="921" alt="Screenshot 2026-04-17 182736" src="https://github.com/user-attachments/assets/4a53121b-bff8-499f-af9c-73c89878aa2e" />
+
 
 ## 💾 Storage
 
